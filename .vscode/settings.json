@@ -56,5 +56,34 @@
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp.errorSquiggles": "disabled",
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "xprotocol",
+        "enableSsl": "Disabled",
+        "ssl": {}
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 33060,
+      "driver": "MySQL",
+      "name": "Hey",
+      "group": "Unity",
+      "database": "new_app",
+      "username": "just ME",
+      "password": "9028690231"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "HEY",
+      "group": "UNITY",
+      "database": "portges",
+      "username": "just ME",
+      "password": "9028690231"
+    }
+  ]
 }
